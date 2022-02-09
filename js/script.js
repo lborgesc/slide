@@ -6,4 +6,5 @@ const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
 slide.addArrow('.prev', '.next')
 
-slide.chengeSlide(3);
+
+slide.addControl();
