@@ -1,5 +1,9 @@
-import Slide from './modules/slide.js'
+import {
+  SlideNav,
+} from './modules/slide.js'
 
-const slide = new Slide('.slide', '.slide-wrapper');
+const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
-slide.chengeSlide(2);
+slide.addArrow('.prev', '.next')
+
+slide.chengeSlide(3);
